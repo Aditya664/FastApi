@@ -1,5 +1,5 @@
 origins = [
-    "http://localhost",
+    "https://potatofastapi.herokuapp.com",
      ]
  app.add_middleware(
     CORSMiddleware,
