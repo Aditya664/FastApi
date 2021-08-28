@@ -8,7 +8,7 @@ import requests
 
 app = FastAPI()
 
-endpoint = "http://localhost:8501/v1/models/potatoes_model:predict"
+endpoint = "https://potatofastapi.herokuapp.com/v1/models/potatoes_model:predict"
 
 CLASS_NAMES = ["Early Blight", "Late Blight", "Healthy"]
 
